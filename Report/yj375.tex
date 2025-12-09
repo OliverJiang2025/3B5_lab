@@ -14,22 +14,34 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\graphicspath{{./Figures/}}
 \usepackage{tikz}
 \usepackage{amssymb}
 \usepackage{circuitikz}
 \usepackage{setspace}
 \usepackage{pdfpages}
-\doublespacing{}
 \begin{document}
 
 
-\includepdf{3B5_IIA_Lab_FeedbackSheet_2025.pdf}
-
 \section*{Experiment 1: C-V Measurements}
+\begin{figure}[htbp]
+  \includegraphics[width=0.8\textwidth]{Figure_1.png} 
+  \caption{Circuit Diagram for CV Measurements} 
+  \label{fig:fig1} 
+\end{figure}
+The circuits shown in Figure \ref{fig:fig1}
+is used to conduct the CV Measurements.
 
+The open-loop frequency of the oscillator 
+$f_0 = 1629.9 \pm 0.05 \text{kHz}$.
 
+The "10 pF" capacitor $C_{10} = 10.48 \pm 0.005 pF$.
 
+With $C_{10}$ connected, the frequency $f_{10} = 1467.4 \pm 0.05 \text{kHz}$.
 
+From theories of oscillators, 
+the circuit capacitance 
+$C_0 = \frac{C_{10}}{\big(\frac{f_0^2}{f_{10}^2}\big)-1}$ = 44.
 \section*{Experiment 2: I-V Measurements}
 
 \subsection*{Reverse Bias}
@@ -39,6 +51,10 @@
 \subsection*{Strong Forward Bias}
 
 
+
+\appendix
+
+\section*{Data Tables}
 
 
 
