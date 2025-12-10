@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.12)  10 DEC 2025 00:16
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.12)  10 DEC 2025 02:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,27 +452,49 @@ File: ./Figures/Figure_2.png Graphic file (type bmp)
 ]
 File: ./Figures/Figure_3.png Graphic file (type bmp)
 <./Figures/Figure_3.png>
-File: ./Figures/Table_1.png Graphic file (type bmp)
-<./Figures/Table_1.png>
-File: ./Figures/Table_2.png Graphic file (type bmp)
-<./Figures/Table_2.png>
+File: ./Figures/Figure_5.png Graphic file (type bmp)
+<./Figures/Figure_5.png>
+File: ./Figures/Figure_4.png Graphic file (type bmp)
+<./Figures/Figure_4.png>
 
 
 [2]
+File: ./Figures/Figure_6.png Graphic file (type bmp)
+<./Figures/Figure_6.png>
+File: ./Figures/Figure_7.png Graphic file (type bmp)
+<./Figures/Figure_7.png>
+File: ./Figures/Figure_8.png Graphic file (type bmp)
+<./Figures/Figure_8.png>
+File: ./Figures/Table_1.png Graphic file (type bmp)
+<./Figures/Table_1.png>
 
-[3] (./yj375.aux)
+
+[3]
+
+[4]
+File: ./Figures/Table_2.png Graphic file (type bmp)
+<./Figures/Table_2.png>
+File: ./Figures/Table_2.png Graphic file (type bmp)
+<./Figures/Table_2.png>
+File: ./Figures/Table_4.png Graphic file (type bmp)
+<./Figures/Table_4.png>
+
+
+[5]
+
+[6] (./yj375.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32090 strings out of 473832
- 824569 string characters out of 5729481
- 1435517 words of memory out of 5000000
- 54835 multiletter control sequences out of 15000+600000
+ 32163 strings out of 473832
+ 826260 string characters out of 5729481
+ 1435678 words of memory out of 5000000
+ 54902 multiletter control sequences out of 15000+600000
  563541 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,7n,91p,411b,218s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,91p,411b,214s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on yj375.pdf (3 pages).
+Output written on yj375.pdf (6 pages).

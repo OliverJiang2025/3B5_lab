@@ -99,11 +99,85 @@ Figure \ref{fig:fig3} shows the circuits diagram
 for measuring reverse saturation current under
 reverse bias. 
 
+The reverse current $I_{rev}$ is related to 
+reverse saturation current $I_{s}$ and 
+leak resistance $R_{leak}$ by:
+$I_{rev} = I_s [\exp{\frac{eV_{rev}}{\eta kT}}-1] + \frac{V_{rev}}{R_{leak}}$
+
+\begin{figure}[htbp]
+  \includegraphics[width=0.5\textwidth]{Figure_5.png} 
+  \centering
+  \caption{Linear Fit for Current - Voltage Measurements} 
+  \label{fig:fig5} 
+\end{figure}
+
+Figure \ref{fig:fig5} shows a linear fit of
+measured values of $I_{rev} - V_{rev}$.
+
+The reverse saturation current can be estimated
+by the intercept as $I_{rev} \approx - I_s$
+when $V_{rev} = 0$. $I_s \approx 0.1594 \mu A$.
+
+The leak resistance can be estimated by the gradient.
+$R_{leak} \approx 59.2 k\Omega $.
 
 
 \subsection*{Weak Forward Bias} 
 
+\begin{figure}[htbp]
+  \includegraphics[width=0.5\textwidth]{Figure_4.png} 
+  \centering
+  \caption{Circuit Diagram of Measuring Forward Current}
+  \label{fig:fig4} 
+\end{figure}
+
+Figure \ref{fig:fig4} shows the circuits diagram 
+for measuring current under
+both weak forward bias and strong 
+forward bias. 
+
+For a Schotkky barrier diode under forward bias, 
+$I_F = I_s [\exp{\frac{eV}{\eta kT}}-1]$.
+Rearrangement gives 
+$V_F = \eta \frac{kT}{e}[\ln(\frac{I_F}{I_s})+1]$.
+
+$V_F$ is plotted against $(\ln(\frac{I_F}{I_s})+1)$,
+shown in Figure \ref{fig:fig6}. The gradient 
+equals to $\eta \frac{kT}{e}$. Under the 
+lab circumstance, $\frac{kT}{e} = 25.68mV$.
+$\eta = 1.47$.
+
+\begin{figure}[htbp]
+  \includegraphics[width=0.6\textwidth]{Figure_6.png} 
+  \centering
+  \caption{Linear Fit of Forward Voltage and $\ln(\frac{I_F}{I_s})+1$}
+  \label{fig:fig6} 
+\end{figure}
+
 \subsection*{Strong Forward Bias}
+In this section, a same circuit is used 
+as the test in weak forward bias. 
+
+From the lab sheet, 
+$I_F = \frac{1}{r_c} (V_F - \frac{\eta kT}{e}\ln(\frac{I_F}{I_s}))$.
+
+
+
+\begin{figure}[htbp]
+  \includegraphics[width=0.6\textwidth]{Figure_7.png} 
+  \centering
+  \caption{Linear Fit of Forward Voltage and Forward Current}
+  \label{fig:fig7} 
+\end{figure}
+
+\begin{figure}[htbp]
+  \includegraphics[width=0.6\textwidth]{Figure_8.png} 
+  \centering
+  \caption{Linear Fit of Forward Voltage and Forward Current}
+  \label{fig:fig8} 
+\end{figure}
+
+$r_{cSBD} = 2.5 \Omega$, $r_{cpn} = 0.9 \Omega$.
 
 
 
@@ -129,6 +203,19 @@ reverse bias.
 \end{figure}
 
 
+\begin{figure}[htbp]
+  \includegraphics[width=0.8\textwidth]{Table_2.png} 
+  \centering
+  \caption{Data Table for Weak Forward Bias} 
+  \label{tab:tab3} 
+\end{figure}
+
+\begin{figure}[htbp]
+  \includegraphics[width=0.8\textwidth]{Table_4.png} 
+  \centering
+  \caption{Data Table for Strong Forward Bias} 
+  \label{tab:tab4} 
+\end{figure}
 
 
 
